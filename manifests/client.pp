@@ -70,6 +70,7 @@ class ganglia::client (
   $udp_port = '8649',
   $unicast_listen_port = '8649',
   $unicast_targets = [],
+  $host_identifier = 'localhost',
   $network_mode ='multicast',
   $user = 'ganglia',
   $mcast_if = 'eth0',
